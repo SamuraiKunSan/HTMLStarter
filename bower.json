@@ -1,0 +1,23 @@
+{
+  "name": "htmlstarter",
+  "description": "Start HTML temlate",
+  "main": "gulpfile.js",
+  "authors": [
+    "Igus Aleksei Ivanovich"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/libs/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap4": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  }
+}
