@@ -1,5 +1,5 @@
 /**
- * @author  Igus Aleksei Ivanovich
+ * @author  Igus Aleksei
  * @package Gulpfile
  * @version 1.0
  * 
@@ -210,7 +210,7 @@ gulp.task('html:prod', function(done) {
     gulp.src(path.src.temp)
     	.pipe(plumber())
     	.pipe(rigger())
-        .pipe(preprocess({context: {NODE_ENV: 'development', DEBUG: true}}))
+        .pipe(preprocess({context: {NODE_ENV: 'production', DEBUG: true}}))
         .pipe(gulp.dest(path.build.html));
     done();
 });
